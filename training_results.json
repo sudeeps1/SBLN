@@ -1,0 +1,30 @@
+{
+  "task_type": "classification",
+  "data_shape": [
+    120,
+    5
+  ],
+  "timestamp": "2025-08-07T02:27:36.198646",
+  "results": {
+    "XGBoost": {
+      "train_score": 1.0,
+      "test_score": 1.0,
+      "model_type": "XGBClassifier"
+    },
+    "LightGBM": {
+      "train_score": 1.0,
+      "test_score": 1.0,
+      "model_type": "LGBMClassifier"
+    },
+    "CatBoost": {
+      "train_score": 1.0,
+      "test_score": 1.0,
+      "model_type": "CatBoostClassifier"
+    },
+    "MLP": {
+      "train_score": 1.0,
+      "test_score": 1.0,
+      "model_type": "MLP"
+    }
+  }
+}
